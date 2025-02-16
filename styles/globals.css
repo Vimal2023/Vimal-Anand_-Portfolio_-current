@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .contactInput {
+    @apply w-full text-base text-[#A7B49E] placeholder:text-[#818C78] border border-b-[1px] border-transparent border-b-[#818C78] py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-[#E2E0C8] duration-100 bg-[#5C7285];
+  }
+}
+
+.scrollbarHide::-webkit-scrollbar {
+  display: none;
+}
+.active {
+  color: #5C7285;
+}
