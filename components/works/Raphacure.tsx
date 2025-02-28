@@ -10,11 +10,11 @@ const Raphacure = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Freelance Frontend Developer
+        Frontend Developer Intern
         <span className="text-[#6E8E59] tracking-wide">@Raphacure</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Dec 2024 - present
+        Dec 2024 - Feb 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">

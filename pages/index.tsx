@@ -7,6 +7,7 @@ import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
+import Articles from "@/components/Articles"
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
@@ -37,6 +38,7 @@ export default function Home() {
             <Experience />
             <Projects />
             <Archive />
+            <Articles />
             <Contact />
             <Footer />
           </div>

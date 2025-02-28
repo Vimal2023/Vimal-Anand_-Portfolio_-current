@@ -107,6 +107,19 @@ const Navbar = () => {
             </Link>
             <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-[#FF8000] cursor-pointer duration-300 nav-link"
+              href="#article"
+              onClick={handleScroll}
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.3 }}
+              >
+                Article
+              </motion.li>
+            </Link>
+            <Link
+              className="flex items-center gap-1 font-medium text-textDark hover:text-[#FF8000] cursor-pointer duration-300 nav-link"
               href="#contact"
               onClick={handleScroll}
             >
