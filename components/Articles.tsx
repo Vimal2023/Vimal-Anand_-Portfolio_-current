@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Articles = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-15">
+    <section id="articles" className="max-w-container mx-auto lgl:px-20 py-15">
       <SectionTitle title="Articles" />
       <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
