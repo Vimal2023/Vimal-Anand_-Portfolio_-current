@@ -16,6 +16,13 @@ const Archive = () => {
         </p> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+      <ArchiveCard
+          title="Modern Landing Page"
+          des="I created a modern landing page for the startup growing eco-system.
+                  "
+          listItem={["ReactJS", "TailwindCSS", "Framer Motion", "Vercel"]}
+          link="https://landing-page-seven-puce.vercel.app/"
+        />
         <ArchiveCard
           title="Calculater App"
           des="I created a calculator app with a user-friendly
@@ -27,8 +34,7 @@ const Archive = () => {
         <ArchiveCard
           title="Covid-Tantra"
           des="I developed a COVID-19 awareness web app to provide
-           reliable information about the pandemic. It features 
-           live updates on case numbers, safety guidelines, and vaccination details."
+           reliable information about the pandemic."
           listItem={["Html", "Css", "Javascript", "Github Pages"]}
           link="https://www.noormohmmad.com/"
         />
