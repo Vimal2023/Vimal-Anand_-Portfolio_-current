@@ -23,7 +23,7 @@ const LeftSide = () => {
             <SlSocialLinkedin />
           </span>
         </a>
-        <a href="https://www.instagram.com/coder_shelby_07/" target="_blank">
+        <a href="https://www.instagram.com/code_with_vimal/" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-[#FF8000] cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialInstagram />
           </span>
