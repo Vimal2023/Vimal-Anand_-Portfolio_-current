@@ -16,7 +16,14 @@ const Archive = () => {
         </p> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-      <ArchiveCard
+        <ArchiveCard
+          title="PinItUp"
+          des="Design unique and expressive notes with diverse fonts, themes, and vibes.
+                  "
+          listItem={["Typescript", "TailwindCSS", "Loading", "Vercel"]}
+          link="https://pin-it-up.vercel.app/"
+        />
+        <ArchiveCard
           title="Modern Landing Page"
           des="I created a modern landing page for the startup growing eco-system.
                   "
