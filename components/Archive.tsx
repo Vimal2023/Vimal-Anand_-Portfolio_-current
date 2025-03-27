@@ -17,6 +17,12 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
+          title="3x3 Matrix Game"
+          des="A 3x3 matrix game where players can select a number from the grid and try to match it with the target number. "
+          listItem={["Javascript", "ReactJS", "CSS", "Vercel"]}
+          link="https://3x3-matrix-gamevimal.vercel.app/"
+        />
+        <ArchiveCard
           title="PinItUp"
           des="Design unique and expressive notes with diverse fonts, themes, and vibes.
                   "
