@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
+import { amazonImg, cyberImg, noorShop, fourthOne } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -62,6 +62,7 @@ const Projects = () => {
           </div>
         </div>
         {/* ============ project One End here ================== */}
+        
         {/* ============ project Two Start here ================ */}
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
@@ -178,6 +179,62 @@ const Projects = () => {
           </div>
         </div>
         {/* ============ project Three End here ================== */}
+        {/* ============ project fourth Start here ================ */}
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://github.com/Vimal2023/Contact-Book-_-Backend"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-fit h-fit object-contain"
+                src={fourthOne}
+                alt="fourthOne"
+              />
+              <div className="absolute w-full h-full bg-[#FF8000]/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+            <div>
+              <p className="font-titleFont text-[#FF8000] text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Contact_Management_App - Backend</h3>
+            </div>
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            A full-stack web application built with Node.js, Express, and MongoDB to manage 
+            contacts with user authentication. The project features{" "}
+              <span className="text-[#FF8000]">
+              User registration and login with JWT authentication, CRUD operations for managing contacts (Create, Read, Update, Delete)
+
+              </span>{" "}
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>ExpressJS</li>
+              <li>NodeJS</li>
+              <li>MongoDB</li>
+              <li>Thunder</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-[#FF8000] duration-300"
+                href="https://github.com/Vimal2023/Contact-Book-_-Backend"
+                target="_blank"
+              >
+                <TbBrandGithub />
+              </a>
+              <a
+                className="hover:text-[#FF8000] duration-300"
+                href="https://github.com/Vimal2023/Contact-Book-_-Backend"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* ============ project fourth End here ================== */}
       </div>
     </section>
   );
