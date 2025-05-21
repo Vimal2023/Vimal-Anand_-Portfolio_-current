@@ -36,14 +36,7 @@ const Archive = () => {
           listItem={["ReactJS", "TailwindCSS", "Framer Motion", "Vercel"]}
           link="https://landing-page-seven-puce.vercel.app/"
         />
-        <ArchiveCard
-          title="Calculater App"
-          des="I created a calculator app with a user-friendly
-                 interface for performing basic arithmetic operations.
-                  "
-          listItem={["Html", "Css", "Javascript", "Github Pages"]}
-          link="https://calculator07-nine.vercel.app/"
-        />
+        
         <ArchiveCard
           title="Covid-Tantra"
           des="I developed a COVID-19 awareness web app to provide
@@ -51,34 +44,7 @@ const Archive = () => {
           listItem={["Html", "Css", "Javascript", "Github Pages"]}
           link="https://www.noormohmmad.com/"
         />
-        <ArchiveCard
-          title="Rock-Paper-Scissor Game"
-          des=" Developed an interactive Rock-Paper-Scissors game using modern web technologies, featuring a sleek UI with emoji-based buttons."
-          listItem={["Html", "Css", "Javascript", "Github Pages"]}
-          link="https://vimal2023.github.io/RockPaperScissorGame_VimalAnand.github.io/"
-        />
-        <ArchiveCard
-          title="TipCalculator App"
-          des="I developed a tip calculator app with a sleek and 
-          modern UI for calculating tips and splitting bills. 
-          It allows users to input the bill amount, select a tip percentage."
-          listItem={["Html", "Css", "Javascript", "Netlify"]}
-          link="https://tipcalculator-vimal.netlify.app/"
-        />
-        {/* <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
-        /> */}
+        
 
         {/* {showMore && (
           <>

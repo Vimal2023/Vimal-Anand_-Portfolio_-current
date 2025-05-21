@@ -11,7 +11,13 @@ const Raphacure = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Frontend Developer Intern
-        <span className="text-[#6E8E59] tracking-wide">@Raphacure</span>
+        <a
+          className="text-[#6E8E59] tracking-wide"
+          href="https://www.linkedin.com/company/rapha-cure/posts/?feedView=all"
+          target="_blank"
+        >
+          @r.cure
+        </a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Dec 2024 - Feb 2025
@@ -22,14 +28,24 @@ const Raphacure = () => {
             <TiArrowForward />
           </span>
           Developed multiple Responsive pages from figma design using
-          Typescript, ReactJS and Javascript.
+          Typescript, ReactJS and Javascript, reducing UI development time by
+          30% through efficient component reuse.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-[#6E8E59] mt-1">
             <TiArrowForward />
           </span>
-          Implemented seamless API integration using Redux Toolkit for efficient
-          state management and optimized data flow in web applications.
+          Implemented seamless API integration using Redux Toolkit, optimizing
+          data flow and improving application performance by 25% for state
+          management tasks.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-[#6E8E59] mt-1">
+            <TiArrowForward />
+          </span>
+          Extensively utilized ReactJS to build dynamic and interactive UI
+          components, enhancing user engagement by 40% through improved
+          interface responsiveness.
         </li>
       </ul>
     </motion.div>

@@ -6,5 +6,6 @@ import noorShop from "./images/projectthree.png";
 import articleone from "./images/article1.png"
 import articleTwo from "./images/article2.png"
 import fourthOne from "./images/fourthone.jpg"
+import weatherproject from "./images/weather-app.jpg"
 
-export { logo, profileImg, amazonImg, cyberImg, noorShop, articleone, articleTwo, fourthOne };
+export { logo, profileImg, amazonImg, cyberImg, noorShop, articleone, articleTwo, fourthOne, weatherproject };

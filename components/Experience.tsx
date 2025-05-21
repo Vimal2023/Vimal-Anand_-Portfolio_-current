@@ -24,7 +24,7 @@ const Experience = () => {
                 : "border-l-[#6E8E59] text-[#6E8E59]"
             } border-l-2 bg-transparent hover:bg-[#112240] py-2 text-sm  cursor-pointer duration-300 px-3 font-medium`}
           >
-            Raphacure.com
+            r.cure
           </li>
           
         </ul>

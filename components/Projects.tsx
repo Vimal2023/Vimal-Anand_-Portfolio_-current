@@ -1,4 +1,4 @@
-import { amazonImg, cyberImg, noorShop, fourthOne } from "@/public/assets";
+import { amazonImg, cyberImg, fourthOne, weatherproject } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -131,8 +131,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={noorShop}
-                alt="noorShop"
+                src={weatherproject}
+                alt="weatherproject"
               />
               <div className="absolute w-full h-full bg-[#FF8000]/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -142,35 +142,33 @@ const Projects = () => {
               <p className="font-titleFont text-[#FF8000] text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Mera Zyaka</h3>
+              <h3 className="text-2xl font-bold">Mausam - Weather App</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              It is a restaurant web where you can watch the details and
-              trending food and reserve a table online,{" "}
+              It is a modern, responsive weather app that delivers real-time 
+              weather updates and 5-day forecasts in an elegant UI.{" "}
               <span className="text-[#FF8000]">
-                informative articles, daily health tips on Healthy food
+                Users can search by city or use geolocation to instantly view detailed weather metrics.
               </span>{" "}
-              , to promote a healthy lifestyle. It aims to{" "}
-              <span className="text-[#FF8000]">empower</span> healthy food.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>Typescript</li>
               <li>ReactJS</li>
-              <li>NodeJS</li>
-              <li>MongoDB</li>
-              <li>ExpressJS</li>
-              <li>Vercel Deployment</li>
+              <li>TailwindCSS</li>
+              <li>ShadcnUI</li>
+              <li>WeatherAPI</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-[#FF8000] duration-300"
-                href="https://github.com/Vimal2023/Zyaka"
+                href="https://github.com/Vimal2023/Weather-App__Mausam"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
                 className="hover:text-[#FF8000] duration-300"
-                href="https://zyaka.vercel.app/"
+                href="https://mausam-vimal.vercel.app/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
