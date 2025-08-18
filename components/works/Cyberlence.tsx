@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const Raphacure = () => {
+const Cyberlence = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,39 +10,36 @@ const Raphacure = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Frontend Developer Intern
+        UI Developer Intern
         <a
           className="text-[#6E8E59] tracking-wide"
-          href="https://www.linkedin.com/company/rapha-cure/"
+          href="https://www.linkedin.com/company/cyberlence/"
           target="_blank"
         >
-          @r.cure
+          @Cyberlence
         </a>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Dec 2024 - Feb 2025
+        June 2025 - Aug 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-[#6E8E59] mt-1">
             <TiArrowForward />
           </span>
-          Developed multiple Responsive pages from figma design using
-          Typescript, ReactJS and Javascript, reducing UI development time by
-          30% through efficient component reuse.
+          Designed and developed user interface components, enhancing overall
+          user experience and reducing UI-related bug reports by 20%
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-[#6E8E59] mt-1">
             <TiArrowForward />
           </span>
-          Implemented seamless API integration using Redux Toolkit, optimizing
-          data flow and improving application performance by 25% for state
-          management tasks.
+          Collaborated with cross-functional teams, contributing to 30% faster
+          delivery of UI development projects through streamlined workflows.
         </li>
-        
       </ul>
     </motion.div>
   );
 };
 
-export default Raphacure;
+export default Cyberlence;

@@ -3,7 +3,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto mdl:py-20 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4 px-20 py-20"
+      className="max-w-contentContainer mx-auto mdl:py-20 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-8 px-20 py-20"
     >
       <motion.h3
         initial={{ y: 10, opacity: 0 }}

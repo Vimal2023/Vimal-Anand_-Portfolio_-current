@@ -1,6 +1,8 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Raphacure from "./works/Raphacure";
+import Cyberlence from "./works/Cyberlence";
+
 
 const Experience = () => {
   const [workReactbd, setWorkReactbd] = useState(true);
@@ -29,6 +31,22 @@ const Experience = () => {
           
         </ul>
         {workReactbd && <Raphacure />}
+      </div>
+      <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
+        <ul className="md:w-32 flex flex-col">
+          <li
+            onClick={handleReactbd}
+            className={`${
+              workReactbd
+                ? "border-l-[#98D8EF] text-[#98D8EF]"
+                : "border-l-[#6E8E59] text-[#6E8E59]"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-2 text-sm  cursor-pointer duration-300 px-3 font-medium`}
+          >
+            Cyberlence
+          </li>
+          
+        </ul>
+        {workReactbd && <Cyberlence />}
       </div>
     </section>
   );
