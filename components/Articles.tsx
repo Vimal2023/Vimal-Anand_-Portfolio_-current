@@ -1,4 +1,4 @@
-import { amazonImg, articleone, articleTwo, cyberImg, noorShop } from "@/public/assets";
+import { articleone, articleTwo, } from "@/public/assets";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
